@@ -1,3 +1,8 @@
+git init
+git add .  # This stages all the files in your directory
+git commit -m "Initial commit"  # This commits the changes
+git remote add origin https://github.com/jpedrocrvg/hangman-futebol.git
+
 import random
 from hangman_art import logo
 from hangman_words import word_list
